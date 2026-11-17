@@ -1,0 +1,30 @@
+{
+  "name": "chalkovox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI whiteboard tutor with OpenRouter reasoning, Deepgram voice, and Supabase auth.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
+    "lucide-react": "^1.73.0",
+    "next": "15.5.29",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}

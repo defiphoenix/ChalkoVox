@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+next-env.d.ts
+coverage
+logs/
+.DS_Store
+.supabase-db-password
+.supabase-login.txt
+.supabase-service-key
+supabase/.temp
