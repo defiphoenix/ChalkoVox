@@ -1,8 +1,6 @@
 node_modules
 .next
 out
-.env
-.env.local
 .env.*.local
 *.tsbuildinfo
 next-env.d.ts
@@ -13,3 +11,4 @@ logs/
 .supabase-login.txt
 .supabase-service-key
 supabase/.temp
+config.bat

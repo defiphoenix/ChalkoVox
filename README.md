@@ -60,6 +60,7 @@ Add your production origin and `https://YOUR_DOMAIN/auth/callback` before deploy
 - **Learn** returns to the current board. **Practice** opens the step's quick check, or asks the tutor for one. **Explore** / **New lesson** starts a new topic.
 - Step dots and the sidebar map show progress; **Finish** on the last step opens the completion summary.
 - **Listen** reads a step or tutor answer with Deepgram; the mic in the chat composer records a question and inserts the transcript.
+- Use **Export PPTX** to download one PowerPoint slide per lesson step. **Export video** creates a narrated recording in WebM, or MP4 when the browser supports MP4 recording.
 - Ask for simpler explanations, examples, or practice in the chat. Answers are grounded in the visible step.
 
 ## Request logs

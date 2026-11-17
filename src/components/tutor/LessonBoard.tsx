@@ -16,6 +16,7 @@ import {
   Volume2,
 } from "lucide-react";
 import { StepQuiz } from "@/components/quiz/StepQuiz";
+import { LessonExports } from "@/components/tutor/LessonExports";
 import { Whiteboard } from "@/components/whiteboard/Whiteboard";
 import type { Lesson, LessonStep } from "@/lib/lesson/schema";
 
@@ -75,6 +76,7 @@ export function LessonBoard({
         </div>
 
         <div className="board-tools">
+          <LessonExports lesson={lesson} />
           <button
             className="icon-btn"
             type="button"
